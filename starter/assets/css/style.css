@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.hero-banner h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.avatar img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.me {
+  display: flex;
+}
+
+#work {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "Surf-Report Surf-Report"
+    "LED-Wall Calculator"
+    "Pastel-Pazza Run-Buddy";
+}
+
+#Surf-Report {
+  grid-area: Surf-Report;
+  background-image: url("/starter/images/02-portfolio-1.jpg");
+}
+
+
+#LED-Wall {
+  grid-area: LED-Wall;
+  background-image: url("/starter/images/02-portfolio-2.jpg");
+}
+
+#Calculator {
+  grid-area: Calculator;
+  background-image: url("/starter/images/02-portfolio-3.jpg");
+}
+
+#Pastel-Pazza {
+  grid-area: Pastel-Pazza;
+  background-image: url("/starter/images/02-portfolio-4.jpg");
+}
+
+#Run-Buddy {
+  grid-area: Run-Buddy;
+  background-image: url("/starter/images/02-run-buddy.jpg");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.navBar {
+  display: inline;
+  flex-direction: row;
+  margin: 0px 5%;
+  justify-content: space-between;
+}
+
+.footer a {
+  display: inline;
+  flex-direction: row;
+  margin: 0px 5%;
+  justify-content: space-between;
+}
+
+@media screen and (min-width:646px)  {
+
+  header .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navBar a {
+    display: inline;
+    margin: 0px 3%;
+  }
+  .footer a{
+    display: inline;
+    margin: 0px 3%;
+  }
+  
+}
