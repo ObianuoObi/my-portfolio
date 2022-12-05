@@ -104,7 +104,7 @@ header {
   justify-content: space-between;
 }
 
-@media screen and (min-width:646px)  {
+@media screen and (min-width:646px) {
 
   header .navBar {
     display: flex;
@@ -116,9 +116,9 @@ header {
     display: inline;
     margin: 0px 3%;
   }
-  .footer a{
+
+  .footer a {
     display: inline;
     margin: 0px 3%;
   }
-  
 }
