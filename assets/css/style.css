@@ -55,28 +55,28 @@ header {
 
 #Surf-Report {
   grid-area: Surf-Report;
-  background-image: url("/starter/images/02-portfolio-1.jpg");
+  background-image: url("../../images/02-portfolio-1.jpg");
 }
 
 
 #LED-Wall {
   grid-area: LED-Wall;
-  background-image: url("/starter/images/02-portfolio-2.jpg");
+  background-image: url("../../images/02-portfolio-2.jpg");
 }
 
 #Calculator {
   grid-area: Calculator;
-  background-image: url("/starter/images/02-portfolio-3.jpg");
+  background-image: url("../../images/02-portfolio-3.jpg");
 }
 
 #Pastel-Pazza {
   grid-area: Pastel-Pazza;
-  background-image: url("/starter/images/02-portfolio-4.jpg");
+  background-image: url("../../images/02-portfolio-4.jpg");
 }
 
 #Run-Buddy {
   grid-area: Run-Buddy;
-  background-image: url("/starter/images/02-run-buddy.jpg");
+  background-image: url("../../images/02-run-buddy.jpg");
 }
 
 
